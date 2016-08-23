@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!-- http://pgbovine.net/react-es6-js-setup-minimal.htm -->
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hello React!</title>
+
+    <style>
+      body {
+        font-family: Helvetica, Arial, Sans-Serif;
+      }
+      .success {
+        border-color: green;
+      }
+      .error {
+        border-color: red;
+      }
+
+      .autocomplete {
+        width: 180px;
+        position: relative;
+      }
+
+      .autocomplete input {
+        width: 100%;
+      }
+
+      .autocomplete .suggestions {
+        padding: 2px;
+        margin: 0;
+        width: 100%;
+        border: 1px solid;
+        position: absolute;
+
+        cursor: pointer;
+        background-color: white;
+      }
+
+      .autocomplete .suggestions li:hover {
+        background: lightgrey;
+      }
+    </style>
+
+    <script src="build/react.min.js"></script>
+    <script src="build/react-dom.min.js"></script>
+  </head>
+  <body>
+    <div id="container">
+        <!-- This element's contents will be replaced with your component. -->
+    </div>
+
+    <script src="build/api.js"></script>
+
+    <!-- React Components -->
+    <script src="build/debug.js"></script>
+    <script src="build/emailfield.js"></script>
+    <script src="build/rolefield.js"></script>
+    <script src="build/main.js"></script>
+  </body>
+</html>
